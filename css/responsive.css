@@ -2,7 +2,7 @@
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   section {
     width: 90% !important;
-    height: 50vh;
+    height: 100vh;
   }
 
   .row {
