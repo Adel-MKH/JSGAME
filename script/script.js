@@ -105,4 +105,4 @@ document.body.addEventListener("keydown", function(event) {
 let keyboard = document.createElement("input");
 screen2.appendChild(keyboard);
 keyboard.setAttribute("type", "text");
-keyboard.hidden=true;
+keyboard.style.opacity = 0
