@@ -65,7 +65,7 @@ let heartEmpty= document.getElementsByClassName("empty")
 document.body.addEventListener("keydown", function(event) {
   console.log(event.key)
 
-  if (event.key == letter_display && inGame == true) {
+  if (event.key.toUpperCase() == letter_display && inGame == true) {
     letter_display = alphabet[getRandomInt(alphabet.length)];
 
     letter.textContent = letter_display
@@ -106,5 +106,4 @@ let keyboard = document.createElement("input");
 screen2.appendChild(keyboard);
 keyboard.setAttribute("type", "text");
 keyboard.setAttribute("type", "text");
-
-//keyboard.style.display="none";
+keyboard.style.display="none";

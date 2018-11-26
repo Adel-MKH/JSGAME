@@ -47,7 +47,7 @@ h2 {
 }
 
 #myProgress {
-    width: 30%;
+    width: 100%;
     background-color: grey;
     text-align: center;
 }
@@ -57,6 +57,10 @@ h2 {
     background-color: green;
 }
 
-.empty {
+i {
+  color: red;
+}
+
+h2 .empty {
   display: none;
 }
