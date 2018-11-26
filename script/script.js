@@ -4,6 +4,8 @@ let id;
 start.addEventListener("click", function() {
   screen2.style.display = "flex";
   screen1.style.display = "none";
+  keyboard.focus();
+
   move(50)
   /*intervalID=window.setInterval(function() {
     time_display-- ;myBar = time_display
@@ -104,6 +106,5 @@ let keyboard = document.createElement("input");
 screen2.appendChild(keyboard);
 keyboard.setAttribute("type", "text");
 keyboard.setAttribute("type", "text");
-keyboard.focus();
 
 //keyboard.style.display="none";
